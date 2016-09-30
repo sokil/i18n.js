@@ -1,4 +1,4 @@
-# i18n.js
+# translate
 
 Manage your frontend translations
 
