@@ -1,6 +1,6 @@
 # i18n.js
 
-Licalization library
+Manage your frontend translations
 
 ## Useage
 
