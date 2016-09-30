@@ -1,7 +1,7 @@
 {
-    "name": "i18n",
+    "name": "translate",
     "version": "1.0.0",
-    "description": "Localization",
+    "description": "text keys translating",
     "main": "src/I18n.js",
     "author": "Dmytro Sokil <dmytro.sokil@gmail.com>",
     "license": "MIT",
