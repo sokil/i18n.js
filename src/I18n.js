@@ -60,7 +60,7 @@
                 if (placeholders) {
                     for(var placeholder in placeholders) {
                         message = message.replace(
-                            new RegExp(placeholder, 'g'),
+                            new RegExp('{' + placeholder + '}', 'g'),
                             placeholders[placeholder]
                         );
                     };
