@@ -1,5 +1,5 @@
 describe("Internationalization.", function() {
-    var I18n = require('../../../../src/Resources/assets/components/app/I18n.js');
+    var I18n = require('../src/I18n.js');
     console.log(I18n);
 
     it("Get message with placeholders", function() {
