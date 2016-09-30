@@ -1,6 +1,5 @@
 describe("Internationalization.", function() {
     var I18n = require('../src/I18n.js');
-    console.log(I18n);
 
     it("Get message with placeholders", function() {
         var i18n = new I18n({
@@ -10,7 +9,7 @@ describe("Internationalization.", function() {
             "value with 42"
         ).toEqual(
             i18n.getMessage('someKey', {
-                '{placeholder}': 42
+                placeholder: 42
             })
         )
     });
