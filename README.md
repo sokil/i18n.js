@@ -5,13 +5,13 @@ Manage your frontend translations
 ## Useage
 
 ```javascript
-var i18n = new I18n({
+var t = new Translate({
   'country.Ukraine' => 'Україна',
   'city.Kyiv' => 'Київ',
   'city.Kyiv_founded' => 'заснований {age} років тому'
 })
 
-i18n.getMessage('city.Kyiv_founded', {age: (new Date()).getFullYear() - 482})
+t.getMessage('city.Kyiv_founded', {age: (new Date()).getFullYear() - 482})
 ```
 
 ## Tests
