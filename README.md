@@ -4,6 +4,12 @@
 
 Manage your frontend translations
 
+## Install
+
+```
+npm install key-translate
+```
+
 ## Useage
 
 ```javascript
