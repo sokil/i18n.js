@@ -1,15 +1,15 @@
 (function() {
     /**
      * Factory method
-     * @returns {I18n}
+     * @returns {Translate}
      */
     var Factory = function() {
 
-        var I18n = function(messages) {
+        var Translate = function(messages) {
             this.messages = messages || {};
         }
 
-        I18n.prototype = {
+        Translate.prototype = {
 
             /**
              * List of messages
@@ -70,7 +70,7 @@
             }
         };
 
-        return I18n;
+        return Translate;
     };
 
     /**
@@ -78,13 +78,13 @@
      */
     (function(context, factory) {
         if (typeof define === 'function' && define.amd) {
-            define('I18n', function () {
-                return (context['I18n'] = factory());
+            define('Translate', function () {
+                return (context['Translate'] = factory());
             });
         } else if (typeof exports === 'object') {
             module.exports = factory();
         } else {
-            context['I18n'] = factory();
+            context['Translate'] = factory();
         }
     })(this, Factory);
 })();

@@ -1,14 +1,14 @@
-describe("Internationalization.", function() {
-    var I18n = require('../src/I18n.js');
+describe("Translating.", function() {
+    var Translate = require('../src/Translate.js');
 
     it("Get message with placeholders", function() {
-        var i18n = new I18n({
+        var t = new Translate({
             'someKey': 'value with {placeholder}'
         });
         expect(
             "value with 42"
         ).toEqual(
-            i18n.getMessage('someKey', {
+            t.getMessage('someKey', {
                 placeholder: 42
             })
         )
