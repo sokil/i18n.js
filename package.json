@@ -1,6 +1,6 @@
 {
     "name": "key-translate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "text keys translating",
     "main": "src/I18n.js",
     "author": "Dmytro Sokil <dmytro.sokil@gmail.com>",
